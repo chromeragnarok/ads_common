@@ -128,7 +128,7 @@ module SOAP
       # setters for "callbackhandler". These reference the getters and setters
       # for the property with the same name in the Proxy object contained
       # within driver (@proxy).
-      __attr_proxy :callbackhandler, true
+      attr_proxy :callbackhandler, true
 
     end
 
